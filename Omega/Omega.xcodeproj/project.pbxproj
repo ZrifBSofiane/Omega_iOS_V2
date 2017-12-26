@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		994CAE941FF2AC9E00C16162 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994CAE931FF2AC9E00C16162 /* AppDelegate.swift */; };
+		994CAE961FF2AC9E00C16162 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994CAE951FF2AC9E00C16162 /* ViewController.swift */; };
+		994CAE991FF2AC9E00C16162 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 994CAE971FF2AC9E00C16162 /* Main.storyboard */; };
+		994CAE9B1FF2AC9E00C16162 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 994CAE9A1FF2AC9E00C16162 /* Assets.xcassets */; };
+		994CAE9E1FF2AC9E00C16162 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 994CAE9C1FF2AC9E00C16162 /* LaunchScreen.storyboard */; };
+		994CAEA91FF2AC9F00C16162 /* OmegaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994CAEA81FF2AC9F00C16162 /* OmegaTests.swift */; };
+		994CAEB41FF2AC9F00C16162 /* OmegaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994CAEB31FF2AC9F00C16162 /* OmegaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		994CAEA51FF2AC9F00C16162 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 994CAE881FF2AC9E00C16162 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 994CAE8F1FF2AC9E00C16162;
+			remoteInfo = Omega;
+		};
+		994CAEB01FF2AC9F00C16162 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 994CAE881FF2AC9E00C16162 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 994CAE8F1FF2AC9E00C16162;
+			remoteInfo = Omega;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		994CAE901FF2AC9E00C16162 /* Omega.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Omega.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		994CAE931FF2AC9E00C16162 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		994CAE951FF2AC9E00C16162 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		994CAE981FF2AC9E00C16162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		994CAE9A1FF2AC9E00C16162 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		994CAE9D1FF2AC9E00C16162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		994CAE9F1FF2AC9E00C16162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		994CAEA41FF2AC9F00C16162 /* OmegaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OmegaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		994CAEA81FF2AC9F00C16162 /* OmegaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmegaTests.swift; sourceTree = "<group>"; };
+		994CAEAA1FF2AC9F00C16162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		994CAEAF1FF2AC9F00C16162 /* OmegaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OmegaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		994CAEB31FF2AC9F00C16162 /* OmegaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmegaUITests.swift; sourceTree = "<group>"; };
+		994CAEB51FF2AC9F00C16162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		994CAE8D1FF2AC9E00C16162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		994CAEA11FF2AC9F00C16162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		994CAEAC1FF2AC9F00C16162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		994CAE871FF2AC9E00C16162 = {
+			isa = PBXGroup;
+			children = (
+				994CAE921FF2AC9E00C16162 /* Omega */,
+				994CAEA71FF2AC9F00C16162 /* OmegaTests */,
+				994CAEB21FF2AC9F00C16162 /* OmegaUITests */,
+				994CAE911FF2AC9E00C16162 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		994CAE911FF2AC9E00C16162 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				994CAE901FF2AC9E00C16162 /* Omega.app */,
+				994CAEA41FF2AC9F00C16162 /* OmegaTests.xctest */,
+				994CAEAF1FF2AC9F00C16162 /* OmegaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		994CAE921FF2AC9E00C16162 /* Omega */ = {
+			isa = PBXGroup;
+			children = (
+				994CAE931FF2AC9E00C16162 /* AppDelegate.swift */,
+				994CAE951FF2AC9E00C16162 /* ViewController.swift */,
+				994CAE971FF2AC9E00C16162 /* Main.storyboard */,
+				994CAE9A1FF2AC9E00C16162 /* Assets.xcassets */,
+				994CAE9C1FF2AC9E00C16162 /* LaunchScreen.storyboard */,
+				994CAE9F1FF2AC9E00C16162 /* Info.plist */,
+			);
+			path = Omega;
+			sourceTree = "<group>";
+		};
+		994CAEA71FF2AC9F00C16162 /* OmegaTests */ = {
+			isa = PBXGroup;
+			children = (
+				994CAEA81FF2AC9F00C16162 /* OmegaTests.swift */,
+				994CAEAA1FF2AC9F00C16162 /* Info.plist */,
+			);
+			path = OmegaTests;
+			sourceTree = "<group>";
+		};
+		994CAEB21FF2AC9F00C16162 /* OmegaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				994CAEB31FF2AC9F00C16162 /* OmegaUITests.swift */,
+				994CAEB51FF2AC9F00C16162 /* Info.plist */,
+			);
+			path = OmegaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		994CAE8F1FF2AC9E00C16162 /* Omega */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 994CAEB81FF2AC9F00C16162 /* Build configuration list for PBXNativeTarget "Omega" */;
+			buildPhases = (
+				994CAE8C1FF2AC9E00C16162 /* Sources */,
+				994CAE8D1FF2AC9E00C16162 /* Frameworks */,
+				994CAE8E1FF2AC9E00C16162 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Omega;
+			productName = Omega;
+			productReference = 994CAE901FF2AC9E00C16162 /* Omega.app */;
+			productType = "com.apple.product-type.application";
+		};
+		994CAEA31FF2AC9F00C16162 /* OmegaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 994CAEBB1FF2AC9F00C16162 /* Build configuration list for PBXNativeTarget "OmegaTests" */;
+			buildPhases = (
+				994CAEA01FF2AC9F00C16162 /* Sources */,
+				994CAEA11FF2AC9F00C16162 /* Frameworks */,
+				994CAEA21FF2AC9F00C16162 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				994CAEA61FF2AC9F00C16162 /* PBXTargetDependency */,
+			);
+			name = OmegaTests;
+			productName = OmegaTests;
+			productReference = 994CAEA41FF2AC9F00C16162 /* OmegaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		994CAEAE1FF2AC9F00C16162 /* OmegaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 994CAEBE1FF2AC9F00C16162 /* Build configuration list for PBXNativeTarget "OmegaUITests" */;
+			buildPhases = (
+				994CAEAB1FF2AC9F00C16162 /* Sources */,
+				994CAEAC1FF2AC9F00C16162 /* Frameworks */,
+				994CAEAD1FF2AC9F00C16162 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				994CAEB11FF2AC9F00C16162 /* PBXTargetDependency */,
+			);
+			name = OmegaUITests;
+			productName = OmegaUITests;
+			productReference = 994CAEAF1FF2AC9F00C16162 /* OmegaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		994CAE881FF2AC9E00C16162 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Sofiane Bouragba Zrif ";
+				TargetAttributes = {
+					994CAE8F1FF2AC9E00C16162 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					994CAEA31FF2AC9F00C16162 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 994CAE8F1FF2AC9E00C16162;
+					};
+					994CAEAE1FF2AC9F00C16162 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 994CAE8F1FF2AC9E00C16162;
+					};
+				};
+			};
+			buildConfigurationList = 994CAE8B1FF2AC9E00C16162 /* Build configuration list for PBXProject "Omega" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 994CAE871FF2AC9E00C16162;
+			productRefGroup = 994CAE911FF2AC9E00C16162 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				994CAE8F1FF2AC9E00C16162 /* Omega */,
+				994CAEA31FF2AC9F00C16162 /* OmegaTests */,
+				994CAEAE1FF2AC9F00C16162 /* OmegaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		994CAE8E1FF2AC9E00C16162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				994CAE9E1FF2AC9E00C16162 /* LaunchScreen.storyboard in Resources */,
+				994CAE9B1FF2AC9E00C16162 /* Assets.xcassets in Resources */,
+				994CAE991FF2AC9E00C16162 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		994CAEA21FF2AC9F00C16162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		994CAEAD1FF2AC9F00C16162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		994CAE8C1FF2AC9E00C16162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				994CAE961FF2AC9E00C16162 /* ViewController.swift in Sources */,
+				994CAE941FF2AC9E00C16162 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		994CAEA01FF2AC9F00C16162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				994CAEA91FF2AC9F00C16162 /* OmegaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		994CAEAB1FF2AC9F00C16162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				994CAEB41FF2AC9F00C16162 /* OmegaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		994CAEA61FF2AC9F00C16162 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 994CAE8F1FF2AC9E00C16162 /* Omega */;
+			targetProxy = 994CAEA51FF2AC9F00C16162 /* PBXContainerItemProxy */;
+		};
+		994CAEB11FF2AC9F00C16162 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 994CAE8F1FF2AC9E00C16162 /* Omega */;
+			targetProxy = 994CAEB01FF2AC9F00C16162 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		994CAE971FF2AC9E00C16162 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				994CAE981FF2AC9E00C16162 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		994CAE9C1FF2AC9E00C16162 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				994CAE9D1FF2AC9E00C16162 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		994CAEB61FF2AC9F00C16162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		994CAEB71FF2AC9F00C16162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		994CAEB91FF2AC9F00C16162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4865ZNM82T;
+				INFOPLIST_FILE = Omega/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sofiane-Bouragba-Zrif.Omega";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		994CAEBA1FF2AC9F00C16162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4865ZNM82T;
+				INFOPLIST_FILE = Omega/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sofiane-Bouragba-Zrif.Omega";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		994CAEBC1FF2AC9F00C16162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4865ZNM82T;
+				INFOPLIST_FILE = OmegaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sofiane-Bouragba-Zrif.OmegaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Omega.app/Omega";
+			};
+			name = Debug;
+		};
+		994CAEBD1FF2AC9F00C16162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4865ZNM82T;
+				INFOPLIST_FILE = OmegaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sofiane-Bouragba-Zrif.OmegaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Omega.app/Omega";
+			};
+			name = Release;
+		};
+		994CAEBF1FF2AC9F00C16162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4865ZNM82T;
+				INFOPLIST_FILE = OmegaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sofiane-Bouragba-Zrif.OmegaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Omega;
+			};
+			name = Debug;
+		};
+		994CAEC01FF2AC9F00C16162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4865ZNM82T;
+				INFOPLIST_FILE = OmegaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sofiane-Bouragba-Zrif.OmegaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Omega;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		994CAE8B1FF2AC9E00C16162 /* Build configuration list for PBXProject "Omega" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				994CAEB61FF2AC9F00C16162 /* Debug */,
+				994CAEB71FF2AC9F00C16162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		994CAEB81FF2AC9F00C16162 /* Build configuration list for PBXNativeTarget "Omega" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				994CAEB91FF2AC9F00C16162 /* Debug */,
+				994CAEBA1FF2AC9F00C16162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		994CAEBB1FF2AC9F00C16162 /* Build configuration list for PBXNativeTarget "OmegaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				994CAEBC1FF2AC9F00C16162 /* Debug */,
+				994CAEBD1FF2AC9F00C16162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		994CAEBE1FF2AC9F00C16162 /* Build configuration list for PBXNativeTarget "OmegaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				994CAEBF1FF2AC9F00C16162 /* Debug */,
+				994CAEC01FF2AC9F00C16162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 994CAE881FF2AC9E00C16162 /* Project object */;
+}
